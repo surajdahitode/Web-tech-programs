@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login page</title>
+	<style type="text/css">
+		.div{
+			width: 100%;
+            height:100vh;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+		}
+		.div2,.div1{
+			height: 100vh;
+			width: 50%;	
+		}
+		.div1{
+			background-image: url("https://img.freepik.com/premium-vector/cute-man-working-office-cartoon-vector-icon-illustration-people-technology-icon-concept-isolated_138676-5701.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		.div2{
+			height: 350px;
+			width: 60x;
+			background:white;
+		}
+		.lgnbtn{
+			border: none;
+			cursor:pointer;
+			height: 45px;
+			background-color: royalblue;
+			color: white;
+			font-family: Arial Black;
+			font-size: 20px;
+			border-radius: 7px;
+		}
+		.lgnbtn:hover{
+			background-color: white;
+			color: royalblue;
+			border:2px solid royalblue;
+			transform: scale(0.9);
+		}
+		input{
+			width: 90%;
+			height: 30px;
+			margin-bottom: 10px;
+			margin-left: 5%;
+			border:none;
+			border-bottom:3px solid black;
+			outline: none;
+			font-size: 15px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="div">
+		
+		<div class="div1">
+          
+			
+		</div>
+		<div class="div2">
+			<form>
+				
+					<h1>Login</h1>
+					<br>
+					<label>Name</label>
+					<br>
+					<input type="text" name="name">
+					<br><br>
+					<label>password</label>
+					<br>
+					<input type="password" name="pass">
+					<br><br>
+					<input  style="margin-left: ;"type="checkbox" name="ch">    remember me
+					<br><br>
+				    <input type="submit" name="sigh" value="LOGIN" class="lgnbtn">
+				    <br>
+				    Don't have an account?
+				     <a href="form.html">Sign Up</a>
+				     <br>
+				
+			</form>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
